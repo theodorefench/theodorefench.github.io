@@ -1,0 +1,155 @@
+<!-- Created by Audrey Concepcion -->
+<!-- February 11, 2024 -->
+<!-- This is my valentines proposal to my girlfriend, Joy. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine, Joy?</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>HAPPY VALENTINE'S DAY MI LOVEYYY!'</h1>		
+    </header>
+
+    <div class="container">
+
+
+        <section id="firstSection" class="visible">
+            <div class="section-content">
+                <p>Hey there, my lovely baby human!!</p>
+                <p>I have an incredibly important and potentially life-altering question to ask...</p>
+                <button class="btn" onclick="startBackgroundMusic()">Click me to start our song!</button>
+                <button class="btn" onclick="showNextSection()">Sure, hit me with it!</button>
+                <img src="17.jpg.jpg" alt="Your Image" class="section-image">
+            </div>
+        </section>
+
+        <section id="secondSection">
+            <h1 class = "valentine_offer">Would you be my Valentine?</h1>
+            <div class="pic-container">
+                <img src="21.jpg.jpg" alt="You">
+                <img src="24.jpg.jpg".jpg alt="Your Girlfriend"> <!-- ALT is just a description for the image or video -->
+            </div>
+            <div>
+                <button class="btn" onclick="acceptProposal()">Yes, I'd be honored!</button>
+                <button class="btn" onclick="rejectProposal()">Umm, let me think...</button>
+            </div>
+        </section>
+
+        <section id="quoteSection">
+            <div class="quote">
+                <p>"Love is like a river, flowing with the gentle currents of understanding, carving pathways of shared dreams, and embracing the banks of our hearts with the timeless beauty of togetherness." - Audrey</p>
+                <p>Let's make our love story sweeter than candy!</p>
+            </div>
+            <div class="countdown">
+                <p>Countdown to Valentine's Day:</p>
+                <span id="countdown"></span>
+            </div>
+        </section>
+
+        <section id="memoriesSection">
+            <div class="memories">
+                <h2>Our Sweet Memories</h2>
+                <div class="memories-gallery">
+                    <img src="1.jpg.jpg" alt="Memory 1">
+                    <img src="2.jpg.jpg" alt="Memory 2">
+                    <img src="3.jpg.jpg" alt="Memory 3">
+                    <img src="4.jpg.jpg" alt="Memory 3">
+                    <img src="6.jpg.jpg" alt="Memory 3">
+                    <img src="7jpg.jpg" alt="Memory 3">
+                    <img src="8,jpg.jpg" alt="Memory 3">
+                    <img src="9.jpg.jpg" alt="Memory 3">
+                    <img src="10.jpg.jpg" alt="Memory 3">
+                    <img src="11.jpg.jpg" alt="Memory 3">
+                    <img src="12.jpg.jpg" alt="Memory 3">
+                    <img src="13.jpg.jpg" alt="Memory 3">
+                    <img src="14.jpg.jpg" alt="Memory 3">
+                    <img src="15.jpg.jpg" alt="Memory 3">
+                    <img src="16,jpg.jpg" alt="Memory 3">
+                    <img src="17.jpg.jpg" alt="Memory 3">
+                    <img src="18.jpg.jpg" alt="Memory 3">
+                    <img src="19.jpg.jpg" alt="Memory 3">
+                    <img src="20.jpg.jpg" alt="Memory 3">
+                    <img src="21.jpg.jpg" alt="Memory 3">
+                    <img src="22,jpg.jpg" alt="Memory 3">
+                    <img src="23.jpg.jpg" alt="Memory 3">
+                    <img src="24.jpg.jpg" alt="Memory 3">
+                    <img src="25.jpg.jpg" alt="Memory 3">
+                    <img src="26.jpg.jpg" alt="Memory 3">
+                    <img src="27.jpg.jpg" alt="Memory 3">
+                    <img src="28.jpg.jpg" alt="Memory 3">
+		            <img src="29.jpg.jpg" alt="Memory 3">
+		            <img src="30.jpg.jpg" alt="Memory 3">
+		            <img src="31.jpg.jpg" alt="Memory 3">
+		            <img src="32.jpg.jpg" alt="Memory 3">
+		            <img src="33,jpg.jpg" alt="Memory 3">
+		            <img src="34.jpg.jpg" alt="Memory 3">
+		            <img src="35.jpg.jpg" alt="Memory 3">
+                    <img src="36.png.jpg" alt="Memory 3">
+                    <img src="37.png" alt="Memory 3">
+                    <!-- Add more memories/images here, make sure all the pictures are in the same directory as your html, css, and js -->
+                </div>
+            </div>
+            <button class="btn" onclick="showMessages()">What's next?</button>
+        </section>
+
+        <section id="loveMessageSection" style="display: none;">
+            <div class="love-message">
+                <h2>I Love You So Much</h2>
+               <p>My Dearest Joy,</p>
+                <p>Thank you for bringing JOY and INSPIRATION in my life</p>
+                <p>You've filled my heart with love and passion</p>
+                <p>Ikaw lang ang natatanging binibini ng buhay ko.</p>
+                <p>Mamahalin kita nang lubos, ngayon, at magpakailanman.</p>
+                <p>Sana, ang ating pag-ibig ay magtatagal</p>
+                <p>Tulad ng alak na lalong sumasarap sa pagkalipas ng panahon.</p>
+                <!-- For the last message you want to say -->
+            </div>
+            <button class="btn" onclick="proceedToQuoteSection()">Proceed to the funniest quote you'll ever see</button>
+        </section>
+
+        <section id="messagesSection">
+            <div class="messages">
+             <h2>To my beloved Joy,</h2>
+                <p>As I reflect upon the countless days and months we've shared, I am overwhelmed with gratitude for the strength and resilience that defines our bond – a connection as unyielding as the most steadfast glue</p>
+                <p>In the vast tapestry of my life, you emerged as the one essential thread, weaving through my existence with a warmth and comfort that words can scarcely capture.</p>
+                <p>You, my love, are the elixir that fills my once-empty cup, bringing solace to my soul in moments of melancholy.</p>
+                <p>Your presence is a beacon of light that dispels the shadows of sadness, and in you, I've found a sanctuary of joy</p>
+                <p>I want to express my deepest appreciation for the countless nights and days you've dedicated to filling my world with laughter and love.</p>
+                <p>Your kindness, understanding, and unwavering support have been the pillars upon which our relationship stands tall.</p>
+                <p>With each passing moment, my commitment to you strengthens, and I find myself falling more deeply in love with you.</p>
+                <p>This Valentine's Day, I make a solemn promise to cherish, nurture, and protect what we've built together.</p>
+                <p>Our love is a tapestry woven with threads of shared laughter, whispered secrets, and the quiet understanding that binds two souls in a harmonious dance.</p>
+                <p>I am confident that our love story will not only endure the test of time but will flourish, growing more vibrant and beautiful with each passing year.</p>
+                <p>In you, I've found a love that transcends the ordinary, a love that paints the canvas of our shared existence with hues of warmth, passion, and unwavering devotion.</p>
+                <p>Thank you for being the melody that harmonizes with the rhythm of my heart, creating a symphony of love that resonates through the very core of my being.</p>
+                <p>Forever yours, </p>
+                <p>                          </p>
+                <p>Audrey</p>
+            </div>
+            <div>
+                <button class="btn" onclick="askAgain()">So, what do you say?</button>
+                <div style="margin-top: 10px;"></div> <!-- It will add space here -->
+                <div id="answerOptions" style="display: none;">
+                    <button class="btn" onclick="acceptProposalWithAnimation()">Yes, let's make beautiful memories!</button>
+                    <div style="margin-top: 10px;"></div> <!-- It will add space here -->
+                    <button class="btn" onclick="rejectProposalAndStartOver()">No, I need more convincing!</button>
+                </div>
+            </div>
+        </section>
+        <audio id="backgroundMusic" loop style="display: none;">
+            <source src="Music.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <span class="animated-heart">❤️</span>
+
+    <script src="script.js"></script>
+</body>
+</html>
